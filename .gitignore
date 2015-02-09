@@ -1,0 +1,16 @@
+.sass-cache/
+*.css.map
+
+bower_components/skeleton-css/*
+!bower_components/skeleton-css/css
+!bower_components/skeleton-css/images
+
+bower_components/jquery/*
+!bower_components/jquery/dist
+bower_components/jquery/dist/*
+!bower_components/jquery/dist/jquery.min.js
+
+bower_components/mixitup/*
+!bower_components/mixitup/build
+bower_components/mixitup/build/*
+!bower_components/mixitup/build/jquery.mixitup.min.js

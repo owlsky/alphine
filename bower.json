@@ -1,0 +1,8 @@
+{
+  "name": "alphine",
+  "version": "0.0.1",
+  "dependencies": {
+    "skeleton-css": "latest",
+    "mixitup": "~2.1.7"
+  }
+}

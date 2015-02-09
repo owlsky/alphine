@@ -1,0 +1,32 @@
+$font-family-sans-serif: Arial, sans-serif;
+$font-family-serif: Georgia, serif;
+
+// Color
+
+$color-logo: #6f6f6f;
+$color-lead-text: #767676;
+$color-filter-text: #5d5d5d;
+$color-footer-text: #b2b2b2;
+$color-footer-heading: #e6e6e6;
+
+$color-bg: #f2f2f2;
+$color-bg-footer: #333;
+
+
+// Mixins
+
+@mixin box_gradient($s, $e) {
+  background-color: $s;
+  background-image: -webkit-linear-gradient(top, $s, $e);
+  background-image:         linear-gradient(to bottom, $s, $e);
+}
+
+@mixin box_shadow($args...) {
+  -webkit-box-shadow: $args;
+          box-shadow: $args;
+}
+
+@mixin box_transition {
+  -webkit-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+}
