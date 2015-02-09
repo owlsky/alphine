@@ -95,7 +95,7 @@ dd {
         background-color: #484848;
         background-image: -webkit-linear-gradient(top, #484848, #5e5e5e);
         background-image: linear-gradient(to bottom, #484848, #5e5e5e);
-        background-image: url(../img/pattern-1.png); }
+        background-image: url(../img/pattern.png); }
 
 @media (max-width: 768px) {
   .nav__item {
